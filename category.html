@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+     <!-- Appeler le fichier Bootstrap.css -->
+     <link href="bootstrap.css" rel="stylesheet">
+     <link href="bootstrap.min.css" rel="stylesheet">
+     <link href="carousel.css" rel="stylesheet">
+ <!-- Ajoutez le lien vers la feuille de style Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Catégories</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <div class="d-flex justify-content-around">
+        <div class="text-center">
+            <i class="bi bi-music-note h1"></i>
+            <p>Musique</p>
+        </div>
+        <div class="text-center">
+            <i class="bi bi-suit-heart h1"></i>
+            <p>Mariage</p>
+        </div>
+        <div class="text-center">
+            <i class="bi bi-palette h1"></i>
+            <p>Art</p>
+        </div>
+        <div class="text-center">
+            <i class="bi  bi-activity h1"></i>
+            <p>Sport</p>
+        </div>
+        <div class="text-center">
+            <i class="bi bi-film h1"></i>
+            <p>Cinéma</p>
+        </div>
+        <div class="text-center">
+            <i class="bi bi-book h1"></i>
+            <p>Littérature</p>
+        </div>
+        <!-- Ajoutez plus d'items au besoin -->
+    </div>
+    
+    <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+        <!-- Premier bouton avec menu déroulant de thème light -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="lightDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Light Theme
+          </button>
+          <ul class="dropdown-menu d-block position-static mx-0 shadow w-220px" data-bs-theme="light" aria-labelledby="lightDropdown">
+            <!-- Contenu du menu déroulant light avec les icônes de catégorie -->
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-music-note h1"></i>
+                Musique
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-suit-heart h1"></i>
+                Mariage
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-palette h1"></i>
+                Art
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-activity h1"></i>
+                Sport
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      
+        <!-- Deuxième bouton avec menu déroulant de thème dark -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="darkDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dark Theme
+          </button>
+          <ul class="dropdown-menu d-block position-static mx-0 border-0 shadow w-220px" data-bs-theme="dark" aria-labelledby="darkDropdown">
+            <!-- Contenu du menu déroulant dark avec les icônes de catégorie -->
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-music-note h1"></i>
+                Musique
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-suit-heart h1"></i>
+                Mariage
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-palette h1"></i>
+                Art
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <i class="bi bi-activity h1"></i>
+                Sport
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+    </div>
+      
+
+</body>
+
+
+</html>
